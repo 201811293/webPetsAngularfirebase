@@ -1,0 +1,76 @@
+.cart{
+    background-image: url(src\assets\img/cart-bg.png);
+    width: 70px;
+    height: 82px;
+    font-size: 2.5em;
+    color: white;
+}
+#numero{
+    padding: 10px;
+}
+#lista{
+    margin: auto;    
+}
+#reto{
+    margin-top: 50px;
+}
+#row{
+    margin-top: 20px;
+}
+#foter{
+    margin-top: 10px;
+    background-color: #0b5c22;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.6);
+    padding: 6px;
+}
+#categoria{
+    background-color: #0b5c22;
+}
+.lista{
+    display: flex;
+    flex-flow: row wrap;
+}
+.productos{
+    flex:220px;;
+    border: 2px solid green;
+    border-radius: 10px 10px;
+    margin: 0.1%;
+    padding: 1%;
+
+}
+.info{
+    text-align: center;
+}
+#yapa{
+    margin: auto;
+    height: 100%;
+    width: 100%;
+}
+#foooter{
+    margin-top: 10px;
+    background-color: black;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.6);
+    padding: 6px;
+    border-radius: 30px 30px;
+    margin-bottom: 2px;
+}
+body{
+    background-color: black;
+}
+.container{
+    background-color: white;
+
+}
+.loader{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2em;
+}
+.loader img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
